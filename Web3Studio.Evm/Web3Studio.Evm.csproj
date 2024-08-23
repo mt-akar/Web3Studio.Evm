@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Nullable>enable</Nullable>
+        <Authors>Mustafa Akar</Authors>
+        <Description>The web3 development tools such as JSON RPC client for EVM compatible networks.</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>rpc, jsonrpc, hex, crypto, blockchain, evm, ethereum</PackageTags>
+        <Version>1.0.0</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+        <PackageReference Include="Web3Studio.Util" Version="1.0.0" />
+    </ItemGroup>
+
+</Project>
